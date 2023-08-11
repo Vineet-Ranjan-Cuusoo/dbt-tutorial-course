@@ -1,7 +1,7 @@
 {
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
-    "python.defaultInterpreterPath": "/Users/vineet.ranjan/Applications/pythonVirtualEnv/venv_python_feature_testing/bin/python",
+    "python.defaultInterpreterPath": "/Users/vineet.ranjan/Applications/pythonVirtualEnv/venv_dbt_handson/bin/python",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "python.testing.pytestArgs": [
         "tests"
