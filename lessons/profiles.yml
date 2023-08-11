@@ -1,0 +1,13 @@
+lessons:
+  outputs:
+    dev:
+      dataset: dbt_vineet
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: corded-streamer-395601
+      threads: 60
+      type: bigquery
+  target: dev
