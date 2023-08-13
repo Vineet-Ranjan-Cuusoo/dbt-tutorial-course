@@ -1,4 +1,14 @@
 {
+    //Associated the right file type with the right VSCode extensions
+    "files.associations": {
+        "*.sql": "jinja-sql"
+    },
+    //CRUTIAL - you need to change this to terminal.integrated.env.[osx| windows| linux] depending on your system
+    //and point it to the folder where your profiles directory is stored!
+    "terminal.integrated.env.osx": {
+        "DBT_PROFILES_DIR": "/Users/vineet.ranjan/Documents/repositoryFolders/dbt-tutorial-course/.dbt",
+        "BIGQUERY_PROJECT": "corded-streamer-395601"
+    },
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.defaultInterpreterPath": "/Users/vineet.ranjan/Applications/pythonVirtualEnv/venv_dbt_handson/bin/python",
