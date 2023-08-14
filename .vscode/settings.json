@@ -26,5 +26,6 @@
         "**/Thumbs.db": true,
         "**/.pytest_cache": true,
         "**/__pycache__": true
-    }
+    },
+    "dbt.queryLimit": 500
 }
